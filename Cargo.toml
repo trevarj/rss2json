@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Trevor Arjeski <tmarjeski@gmail.com"]
 description = "Parses RSS feeds and outputs as JSON"
 categories = ["command-line-utilities"]
-license = "BSD-2"
+license = "BSD-2-Clause"
 documentation = "https://docs.rs/rss2json"
 repository = "https://github.com/trevarj/rss2json"
 
