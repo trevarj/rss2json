@@ -1,0 +1,16 @@
+[package]
+name = "rss2json"
+version = "1.0.0"
+edition = "2021"
+authors = ["Trevor Arjeski <tmarjeski@gmail.com"]
+description = "Parses RSS feeds and outputs as JSON"
+categories = ["command-line-utilities"]
+license = "BSD-2"
+documentation = "https://docs.rs/rss2json"
+repository = "https://github.com/trevarj/rss2json"
+
+[dependencies]
+anyhow = "1"
+argh = "0.1"
+rss = { version = "2.0", features = ["serde", "validation"] }
+serde_json = "1"
