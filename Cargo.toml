@@ -1,6 +1,6 @@
 [package]
 name = "rss2json"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Trevor Arjeski <tmarjeski@gmail.com"]
 description = "Parses RSS feeds and outputs as JSON"
